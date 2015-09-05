@@ -290,3 +290,8 @@ require get_template_directory() . '/inc/jetpack.php';
  * Load custom nav walker
  */
 require get_template_directory() . '/inc/navwalker.php';
+
+function dequeue_devicepx() {
+    wp_dequeue_script( 'devicepx' );
+}
+add_action( 'wp_enqueue_scripts', 'dequeue_devicepx', 20 );

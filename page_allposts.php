@@ -6,13 +6,15 @@ get_header(); ?>
 <?php
 $debut = 0; //The first article to be displayed
 ?>
-<div class="primary" id="primary">
+
+
+<div class="primary post-inner-content" id="primary">
 <article id="post-<?php the_ID(); ?> article" <?php post_class(); ?>>
 
-                                        <header class="post-header">
+                                        <header class="entry-header post-header">
                                                 <h1 class="post-title"><?php the_title(); ?></h1>
                                         </header><!--post-header-->
-                                        <div class="post-content">
+                                        <div class="entry-content">
 
 
 
