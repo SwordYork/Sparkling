@@ -31,7 +31,7 @@ function sparkling_main_content_bootstrap_classes() {
 	if ( is_page_template( 'page-fullwidth.php' ) ) {
 		return 'col-sm-12 col-md-12';
 	}
-	return 'col-sm-12 col-md-8';
+	return 'col-sm-12 col-md-12';
 }
 endif; // sparkling_main_content_bootstrap_classes
 
